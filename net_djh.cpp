@@ -2,6 +2,7 @@
 #include "net.h"
 template <typename T>
 bool Graph<T>::InsertVex(const T &vex) {
+	cout << "kjajsbdvkjasdbfh" << endl << endl;
 	if (IsGraphFull()) {
 		return false;
 	}
