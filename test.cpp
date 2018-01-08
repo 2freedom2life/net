@@ -40,6 +40,7 @@ int main() {
 	}
 	system("pause");
 	//daijianhao zhende shuai
-
+	//daijianhaoqueshishuai
+	//daijianhaozhenlihai
 	return 0;
 }
