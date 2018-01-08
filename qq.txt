@@ -1,3 +1,8 @@
 °üº¬ .cpp x2
      .h   x2
+<<<<<<< HEAD
 1234455543345
+=======
+daijianhaoshizhendeshuai
+>>>>>>> 3c723d3c2a0fc58e766277a2af03887d03eecef0
+shdiwhdjwq
