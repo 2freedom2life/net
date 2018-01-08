@@ -84,13 +84,16 @@ void Graph<T>::ShortestPath(Graph& G, int v, int dist[], int path[])
 	cout << "目的路由       " << "下一跳路由器     " << "距离" << endl;
 	int *d = new int[n];
 	for (i = 0; i < n; i++)
-		if (i != v) {
+	{
+		b = vexs[i];b--;
+		if (b != v) {
 			j = i; k = 0;
 			while (j != v) {
 				d[k++] = j; j = path[j];
 			}
 			cout << G.GetValue(i) << "            " << G.GetValue(d[--k]) << "                   " << dist[i] << endl;
 		}
+	}
 	delete[]d;
 }
 
